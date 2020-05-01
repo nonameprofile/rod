@@ -4,7 +4,8 @@
 [![codecov](https://codecov.io/gh/ysmood/rod/branch/master/graph/badge.svg)](https://codecov.io/gh/ysmood/rod)
 [![goreport](https://goreportcard.com/badge/github.com/ysmood/rod)](https://goreportcard.com/report/github.com/ysmood/rod)
 
-Rod is a High-level Chrome Devtools controller directly based on [Chrome DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/). Rod also tries to expose low-level interfaces to users, so that whenever a function is missing users can easily send control requests to the browser directly.
+Rod is a High-level Chrome Devtools driver directly based on [Chrome DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/).
+It's designed for web automation and scraping. Rod also tries to expose low-level interfaces to users, so that whenever a function is missing users can easily send control requests to the browser directly.
 
 ## Features
 
@@ -44,7 +45,7 @@ To let rod work with docker is very easy:
 2. Open another terminal and run a go program like this [example](lib/examples/remote-launch/main.go)
 
 The [Rod image](https://hub.docker.com/repository/docker/ysmood/rod)
-can dynamically launch a chrome for each remote controller with customizable chrome flags.
+can dynamically launch a chrome for each remote driver with customizable chrome flags.
 It's well-tuned for screenshots and fonts for popular languages.
 
 ### How to contribute for Rod
